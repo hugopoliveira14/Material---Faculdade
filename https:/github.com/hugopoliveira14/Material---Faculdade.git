@@ -2,3 +2,44 @@ https://github.com/hugopoliveira14/Material---Faculdade.git
 
 LINK DA PROVA: https://student.ulife.com.br/ContentPlayer/Index?lc=%2bScTu7uMp%2bFlqs98NcfokA%3d%3d&l=sRt4KiTgkoNgGpzjYgkNcw%3d%3d&cd=VrExXwH8sPPXWZ8TgeRvxQ%3d%3d&sl=aoP8iDejXzoLpxdalFZbPA%3d%3d&st=CL6PfHPY01CUotZQTl29lQ%3d%3d&oi=Y2xQK8xcNm6Vt5o5DV2q1g%3d%3d
 
+JAVA PROVA =
+
+
+
+import java.util.Scanner;
+
+public class Main{
+
+public static void main(String[]args){
+
+int peso, agua_ingerida, qtd_ideal_agua, qtd_ingerir_dia = 0;
+
+
+
+Scanner ler = new Scanner(System.in);
+
+System.out.println("Digite o nome do funcionario:");
+
+peso = ler.nextInt();
+
+agua_ingerida = ler.nextInt();
+
+qtd_ideal_agua = (peso * 35) / 1000;
+
+qtd_ingerir_dia = (qtd_ideal_agua  - agua_ingerida);
+
+
+
+System.out.println("Peso:" + peso + "agua ingerida:" + agua_ingerida + " Quantidade ideal de agua:" + qtd_ideal_agua + "Quantidade a ingerir por dia"+ qtd_ingerir_dia);
+
+
+
+if (qtd_ingerir_dia < 0){
+
+System.out.println("Parabéns, você atingiu a meta de hidratação diária");
+
+}else {
+    System.out.println("Continue focado em se hidratar por hoje, ainda faltam" + qtd_ingerir_dia + "litros! Você consegue!");
+   }
+ }
+}
