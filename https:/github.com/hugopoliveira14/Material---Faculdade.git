@@ -10,8 +10,6 @@ public static void main(String[]args){
 
 int peso, agua_ingerida, qtd_ideal_agua, qtd_ingerir_dia = 0;
 
-
-
 Scanner ler = new Scanner(System.in);
 
 System.out.println("Digite o nome do funcionario:");
