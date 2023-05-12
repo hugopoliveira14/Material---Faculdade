@@ -23,10 +23,7 @@ qtd_ideal_agua = (peso * 35) / 1000;
 qtd_ingerir_dia = (qtd_ideal_agua  - agua_ingerida);
 
 
-
 System.out.println("Peso:" + peso + "agua ingerida:" + agua_ingerida + " Quantidade ideal de agua:" + qtd_ideal_agua + "Quantidade a ingerir por dia"+ qtd_ingerir_dia);
-
-
 
 if (qtd_ingerir_dia < 0){
 
