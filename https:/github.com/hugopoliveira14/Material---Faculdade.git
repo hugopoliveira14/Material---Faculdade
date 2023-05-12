@@ -42,6 +42,28 @@ System.out.println("Parabéns, você atingiu a meta de hidratação diária");
 
 PYTHON PROVA = Questão 2
 
-C:\Users\hugop\OneDrive\Área de Trabalho\HUGO\A12311ProvaOnlineProgramaodesolues_HugodePauloOliveira_1785401_20230509221529.py
+placa = input("digite a placa do veículo:")
+
+valor_litro_combustivel = float(input("valor do litro do combustível:"))
+
+qtd_km_rodados_60 = float(input("Digite a quantidade de KM rodados em 60KM/hora:"))
+
+qtd_km_rodados_80 = float(input("Digite a quantidade de KM rodados em 80KM/hora:"))
+
+qtd_km_rodados_100 = float(input("Digite a quantidade de KM rodados em 100KM/hora:"))
+
+qtd_km_rodados_120 = float(input("Digite a quantidade de KM rodados em 120KM/hora:"))
+qtd_km_rodados_140 = float(input("Digite a quantidade de KM rodados em 140KM/hora:"))
+
+
+qtd_utilizada_combustivel = (qtd_km_rodados_60 * 30.7) + (qtd_km_rodados_80 * 26.8) + (qtd_km_rodados_100 * 22.4) + (qtd_km_rodados_120 * 18.1) + (qtd_km_rodados_140 * 14.5)
+
+velocidade_media = (qtd_km_rodados_60 + qtd_km_rodados_80 + qtd_km_rodados_100 + qtd_km_rodados_120 + qtd_km_rodados_140) / 5
+
+custo = qtd_utilizada_combustivel * valor_litro_combustivel
+
+print("Quantidade de combustivel utilizada:", qtd_utilizada_combustivel, "Velocidade media da viagem:", velocidade_media,"Custo total da viagem:", custo)
+
+LINK COLAB: https://colab.research.google.com/drive/1rsAo4sOu9dEYWqtQ3InyplvC6D5iXf4Q
 
 
