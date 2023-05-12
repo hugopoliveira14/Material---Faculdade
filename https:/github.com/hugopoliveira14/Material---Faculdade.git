@@ -4,7 +4,7 @@ JAVA PROVA = Questão 1
 
 import java.util.Scanner;
 
-public class Main{
+public class App{
 
 public static void main(String[]args){
 
